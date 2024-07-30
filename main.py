@@ -36,7 +36,7 @@ def send_to_discord(message):
 def job():
     player_count = fetch_player_count()
     if player_count:
-        message = f"Current Rust player count: {player_count}"
+        message = f"Current Rust player count: {player_count} from google"
         send_to_discord(message)
 
 # Schedule the job every 5 minutes
